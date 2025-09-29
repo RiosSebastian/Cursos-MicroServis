@@ -2,13 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="microservis-student" />
         <module name="MicroServis-config" />
         <module name="microservic-gateway" />
         <module name="MicroServis-eureka" />
+        <module name="microservis-course" />
       </profile>
     </annotationProcessing>
   </component>
@@ -17,6 +20,8 @@
       <module name="MicroServis-config" options="-parameters" />
       <module name="MicroServis-eureka" options="-parameters" />
       <module name="microservic-gateway" options="-parameters" />
+      <module name="microservis-course" options="-parameters" />
+      <module name="microservis-student" options="-parameters" />
     </option>
   </component>
 </project>

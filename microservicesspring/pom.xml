@@ -10,6 +10,7 @@
   </parent>
 
 
+
   <groupId>com.mycompany.app</groupId>
   <artifactId>microservicesspring</artifactId>
   <version>1.0-SNAPSHOT</version>
@@ -21,6 +22,8 @@
     <module>microservic-gateway</module>
     <module>MicroServis-eureka</module>
     <module>MicroServis-config</module>
+    <module>microservis-student</module>
+    <module>microservis-course</module>
   </modules>
 
   <properties>
